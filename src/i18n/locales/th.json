@@ -1,0 +1,73 @@
+{
+    "nav": {
+        "home": "หน้าหลัก",
+        "about": "เกี่ยวกับ",
+        "socket": "ซ็อกเก็ต"
+    },
+    "home": {
+        "title": "Vite React TypeScript",
+        "subtitle": "เทมเพลตเริ่มต้นสมัยใหม่",
+        "description": "เทมเพลตเริ่มต้นพร้อมใช้งาน ประกอบด้วย TypeScript, React, Vite, Tailwind CSS, i18n, Socket.io และ Zustand — ตั้งค่าพร้อมใช้ทั้งหมด",
+        "features": "ฟีเจอร์",
+        "get_started": "เริ่มต้นใช้งาน",
+        "view_source": "ดูซอร์สโค้ด"
+    },
+    "features": {
+        "performance": {
+            "title": "ประสิทธิภาพสูง",
+            "description": "HMR ที่รวดเร็วปานสายฟ้าและกระบวนการสร้างที่ปรับแต่งมาอย่างดีโดย Vite เพื่อประสบการณ์การพัฒนาที่ดีที่สุด"
+        },
+        "routing": {
+            "title": "Client-Side Routing",
+            "description": "React Router 7 พร้อมระบบ Type Safety ที่สมบูรณ์และการนำทางที่ราบรื่นระหว่างหน้า"
+        },
+        "i18n": {
+            "title": "ระบบหลายภาษา",
+            "description": "รองรับหลายภาษาด้วย i18next และการตรวจจับภาษาผ่านเบราว์เซอร์"
+        },
+        "theme": {
+            "title": "ระบบธีม",
+            "description": "ธีมมืด/สว่างด้วย Zustand persistence และการรวมเข้ากับ Tailwind CSS 4"
+        },
+        "socket": {
+            "title": "Socket.io",
+            "description": "การสื่อสารแบบเรียลไทม์สองทิศทางผ่านอีเวนต์พร้อมการเชื่อมต่อใหม่อัตโนมัติ"
+        },
+        "state": {
+            "title": "จัดการ State",
+            "description": "Zustand stores พร้อม persist middleware สำหรับธีม, การยืนยันตัวตน, และ socket"
+        }
+    },
+    "about": {
+        "title": "เกี่ยวกับโปรเจกต์นี้",
+        "description": "นี่คือเทมเพลตสาธิตที่แสดงวิธีสร้างแอปพลิเคชัน Vite + React ที่มีฟีเจอร์ครบถ้วน",
+        "tech_stack": "เทคโนโลยีที่ใช้",
+        "architecture": "สถาปัตยกรรม",
+        "architecture_desc": "แอปพลิเคชันสร้างขึ้นบนเซิร์ฟเวอร์การพัฒนาที่รวดเร็วของ Vite โดยใช้สถาปัตยกรรมคอมโพเนนต์แบบโมดูลาร์พร้อมการจัดการสถานะจากส่วนกลางและความสามารถแบบเรียลไทม์ เพื่อให้มั่นใจว่าจะได้รับประสบการณ์ที่ราบรื่นและโต้ตอบได้",
+        "back_home": "กลับหน้าหลัก"
+    },
+    "socket": {
+        "title": "Socket.io สาธิต",
+        "description": "สถานะการเชื่อมต่อแบบเรียลไทม์และการซิงค์จำนวนผู้เล่น",
+        "status": "สถานะการเชื่อมต่อ",
+        "connected": "เชื่อมต่อแล้ว",
+        "disconnected": "ไม่ได้เชื่อมต่อ",
+        "players": "ผู้เล่นออนไลน์",
+        "connect": "เชื่อมต่อ",
+        "disconnect": "ตัดการเชื่อมต่อ",
+        "socket_id": "Socket ID",
+        "no_id": "ยังไม่ได้เชื่อมต่อ"
+    },
+    "theme": {
+        "dark": "มืด",
+        "light": "สว่าง"
+    },
+    "language": {
+        "en": "English",
+        "th": "ไทย"
+    },
+    "footer": {
+        "built_with": "สร้างด้วย",
+        "and": "และ"
+    }
+}
