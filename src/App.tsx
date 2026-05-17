@@ -2,6 +2,7 @@
 import Home from './pages/Home';
 import About from './pages/About';
 import Socket from './pages/Socket';
+import Threejs from './pages/Threejs';
 import Layout from './components/layout/Layout';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
@@ -12,6 +13,7 @@ export default function App() {
                 <Route index element={<Home />} />
                 <Route path='about' element={<About />} />
                 <Route path='socket' element={<Socket />} />
+                <Route path='threejs' element={<Threejs />} />
                 <Route path='*' element={<Navigate to='/' replace />} />
             </Route>
         </Routes>

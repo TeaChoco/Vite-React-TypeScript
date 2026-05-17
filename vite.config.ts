@@ -1,9 +1,9 @@
-// -Path: "vite-extra-react-ssr-ts/vite.config.ts"
-import path from 'path';
-import { fileURLToPath } from 'url';
-import react from '@vitejs/plugin-react';
+// -Path: "vite-react-ts/vite.config.ts"
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import tsconfig from './tsconfig.app.json';
 import tailwindcss from '@tailwindcss/vite';
+import react from '@vitejs/plugin-react-swc';
 import { defineConfig, loadEnv, type AliasOptions } from 'vite';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -28,18 +28,18 @@ const getAliases = (): AliasOptions => {
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, process.cwd(), '');
-    const base = env.VITE_CLIENT_BASE;
-    const host = env.VITE_CLIENT_HOST;
-    const port = Number(env.VITE_CLIENT_PORT);
+    const base = String(env.VITE_CLIENT_BASE || '/');
+    const port = Number(env.VITE_CLIENT_PORT || 8000);
+    const host = String(env.VITE_CLIENT_HOST || '0.0.0.0');
     const isDev = env.VITE_MODE === 'development';
 
     return {
-        base: base ? base : '/',
+        base,
         resolve: { alias: getAliases() },
         plugins: [react(), tailwindcss()],
         server: {
-            port: port || 8000,
-            host: host || '0.0.0.0',
+            port,
+            host,
             strictPort: isDev ? true : undefined,
         },
     };

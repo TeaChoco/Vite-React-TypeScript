@@ -1,3 +1,5 @@
+// -Path: "Vite-React-TypeScript/src/types/auth.ts"
+
 export interface User {
     user_id: string;
     name?: string;
