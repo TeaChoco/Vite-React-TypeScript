@@ -2,9 +2,9 @@
     "nav": {
         "home": "หน้าหลัก",
         "about": "เกี่ยวกับ",
+        "auth": "ยืนยันตัวตน",
         "socket": "ซ็อกเก็ต",
-        "threejs": "Three.js",
-        "auth": "ยืนยันตัวตน"
+        "threejs": "Three.js"
     },
     "home": {
         "title": "Vite React TypeScript",
@@ -142,11 +142,12 @@
         "dark": "มืด",
         "light": "สว่าง"
     },
-    "language": {
-        "en": "English",
-        "th": "ไทย",
-        "ja": "日本語",
-        "zh": "中文"
+    "common": {
+        "error": {
+            "oops": "อุ๊ปส์!",
+            "unexpected": "เกิดข้อผิดพลาดที่ไม่คาดคิด",
+            "notFound": "ไม่พบหน้าที่ขอ"
+        }
     },
     "notfound": {
         "title": "ไม่พบหน้า",

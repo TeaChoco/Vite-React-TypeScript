@@ -1,10 +1,10 @@
 // -Path: 'Vite-React-TypeScript/src/pages/auth/Auth.tsx'
 import { useEffect } from 'react';
 import AuthHero from './AuthHero';
-import type { User } from '$/types/auth';
+import type { User } from '~/types/auth';
 import LeftPanel from './panel/LeftPanel';
 import RightPanel from './panel/RightPanel';
-import { useAuthStore } from '$/stores/authStore';
+import { useAuthStore } from '~/stores/authStore';
 
 export default function Auth() {
     const { setUser } = useAuthStore();

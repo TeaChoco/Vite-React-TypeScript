@@ -1,8 +1,8 @@
 {
     "nav": {
         "home": "ホーム",
-        "auth": "認証",
         "about": "概要",
+        "auth": "認証",
         "socket": "Socket",
         "threejs": "Three.js"
     },
@@ -142,11 +142,12 @@
         "dark": "ダーク",
         "light": "ライト"
     },
-    "language": {
-        "en": "English",
-        "th": "ไทย",
-        "ja": "日本語",
-        "zh": "中文"
+    "common": {
+        "error": {
+            "oops": "おっと！",
+            "unexpected": "予期しないエラーが発生しました。",
+            "notFound": "要求されたページが見つかりませんでした。"
+        }
     },
     "notfound": {
         "title": "ページが見つかりません",

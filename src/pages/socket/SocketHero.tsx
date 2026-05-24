@@ -1,7 +1,7 @@
 // -Path: 'Vite-React-TypeScript/src/pages/socket/SocketHero.tsx'
 import { motion } from 'framer-motion';
 import { FaBolt } from 'react-icons/fa6';
-import Badge from '$/components/custom/Badge';
+import Badge from '~/components/custom/Badge';
 import { useTranslation } from 'react-i18next';
 
 interface SocketHeroProps {

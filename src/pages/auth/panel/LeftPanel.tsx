@@ -2,12 +2,12 @@
 import { useState } from 'react';
 import type { Message } from '../type';
 import { motion } from 'framer-motion';
-import Card from '$/components/custom/Card';
+import Card from '~/components/custom/Card';
 import { useTranslation } from 'react-i18next';
-import { useAuthStore } from '$/stores/authStore';
+import { useAuthStore } from '~/stores/authStore';
 import LoginForm from '../components/content/LoginForm';
-import LeftSketon from '../components/custom/LeftSketon';
-import { authAPI, type LoginPayload } from '$/services/auth';
+import LeftSkeleton from '../components/custom/LeftSkeleton';
+import { authAPI, type LoginPayload } from '~/services/auth';
 import AuthStatusPanel from '../components/content/AuthStatusPanel';
 
 export default function LeftPanel() {
@@ -65,7 +65,7 @@ export default function LeftPanel() {
         >
             <Card className='p-8'>
                 {loading ? (
-                    <LeftSketon />
+                    <LeftSkeleton />
                 ) : user ? (
                     <AuthStatusPanel
                         message={message}

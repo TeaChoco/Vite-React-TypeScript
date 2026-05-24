@@ -1,8 +1,8 @@
 // -Path: 'Vite-React-TypeScript/src/pages/socket/ConnectionStatus.tsx'
 import { motion } from 'framer-motion';
 import { FaPlug } from 'react-icons/fa6';
-import Card from '$/components/custom/Card';
-import Badge from '$/components/custom/Badge';
+import Card from '~/components/custom/Card';
+import Badge from '~/components/custom/Badge';
 import { useTranslation } from 'react-i18next';
 import type { Socket } from 'socket.io-client';
 

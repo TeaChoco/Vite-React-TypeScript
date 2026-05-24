@@ -1,7 +1,7 @@
 // -Path: 'Vite-React-TypeScript/src/pages/auth/RightSketon.tsx'
-import Skeleton from '$/components/custom/Skeleton';
+import Skeleton from '~/components/custom/Skeleton';
 
-export default function RightSketon() {
+export default function RightSkeleton() {
     return (
         <>
             <div className='flex items-center gap-3 mb-6'>

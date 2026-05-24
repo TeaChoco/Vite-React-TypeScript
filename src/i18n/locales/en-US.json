@@ -1,8 +1,8 @@
 {
     "nav": {
         "home": "Home",
-        "auth": "Auth",
         "about": "About",
+        "auth": "Authentication",
         "socket": "Socket",
         "threejs": "Three.js"
     },
@@ -142,11 +142,12 @@
         "dark": "Dark",
         "light": "Light"
     },
-    "language": {
-        "en": "English",
-        "th": "ไทย",
-        "ja": "日本語",
-        "zh": "中文"
+    "common": {
+        "error": {
+            "oops": "Oops!",
+            "unexpected": "Something went wrong!",
+            "notFound": "The page you are looking for doesn't exist or has been moved."
+        }
     },
     "notfound": {
         "title": "Page Not Found",

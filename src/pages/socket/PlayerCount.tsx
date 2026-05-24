@@ -1,7 +1,7 @@
 // -Path: 'Vite-React-TypeScript/src/pages/socket/PlayerCount.tsx'
 import { motion } from 'framer-motion';
 import { FaUsers } from 'react-icons/fa6';
-import Card from '$/components/custom/Card';
+import Card from '~/components/custom/Card';
 import { useTranslation } from 'react-i18next';
 
 interface PlayerCountProps {

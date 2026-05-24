@@ -1,9 +1,9 @@
 // -Path: 'Vite-React-TypeScript/src/pages/Notfound.tsx'
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import Badge from '$/components/custom/Badge';
+import Badge from '~/components/custom/Badge';
 import { useTranslation } from 'react-i18next';
-import Button from '$/components/custom/Button';
+import Button from '~/components/custom/Button';
 
 export default function Notfound() {
     const { t } = useTranslation();

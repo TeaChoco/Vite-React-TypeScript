@@ -1,7 +1,7 @@
 //-Path: 'Vite-React-TypeScript/src/services/auth.ts'
-import env from '$/secure/env';
+import env from '~/secure/env';
 import serverRest from './axios';
-import type { User } from '$/types/auth';
+import type { User } from '~/types/auth';
 
 export interface LoginPayload {
     email: string;

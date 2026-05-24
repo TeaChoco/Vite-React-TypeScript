@@ -1,6 +1,6 @@
 // -Path: 'Vite-React-TypeScript/src/pages/threejs/ThreejsHero.tsx'
 import { motion } from 'framer-motion';
-import Badge from '$/components/custom/Badge';
+import Badge from '~/components/custom/Badge';
 import { SiThreedotjs } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
 

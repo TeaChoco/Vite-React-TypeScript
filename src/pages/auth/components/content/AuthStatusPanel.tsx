@@ -13,15 +13,15 @@ import {
     FaShieldHalved,
     FaArrowRightFromBracket,
 } from 'react-icons/fa6';
-import env from '$/secure/env';
-import { timeAgo } from '$/hook/time';
+import env from '~/secure/env';
+import { timeAgo } from '~/utils/time';
 import { motion } from 'framer-motion';
 import type { Message } from '../../type';
-import Badge from '$/components/custom/Badge';
+import Badge from '~/components/custom/Badge';
 import { useTranslation } from 'react-i18next';
-import Button from '$/components/custom/Button';
-import { useAuthStore } from '$/stores/authStore';
-import { authAPI, type UpdateUserPayload } from '$/services/auth';
+import Button from '~/components/custom/Button';
+import { useAuthStore } from '~/stores/authStore';
+import { authAPI, type UpdateUserPayload } from '~/services/auth';
 
 interface AuthStatusPanelProps {
     loading: boolean;

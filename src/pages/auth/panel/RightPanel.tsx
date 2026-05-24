@@ -2,13 +2,13 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import type { Message } from '../type';
-import Card from '$/components/custom/Card';
+import Card from '~/components/custom/Card';
 import { useTranslation } from 'react-i18next';
-import { useAuthStore } from '$/stores/authStore';
-import RightSketon from '../components/custom/RightSketon';
+import { useAuthStore } from '~/stores/authStore';
 import RegisterForm from '../components/content/RegisterForm';
+import RightSkeleton from '../components/custom/RightSkeleton';
 import AuthDataPanel from '../components/content/AuthDataPanel';
-import { authAPI, type RegisterPayload } from '$/services/auth';
+import { authAPI, type RegisterPayload } from '~/services/auth';
 
 export default function RightPanel() {
     const { t } = useTranslation();
@@ -48,7 +48,7 @@ export default function RightPanel() {
         >
             <Card className='p-8'>
                 {loading ? (
-                    <RightSketon />
+                    <RightSkeleton />
                 ) : user ? (
                     <AuthDataPanel message={message} />
                 ) : (

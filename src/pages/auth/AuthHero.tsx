@@ -1,6 +1,6 @@
 // -Path: 'Vite-React-TypeScript/src/pages/auth/AuthHero.tsx'
 import { motion } from 'framer-motion';
-import Badge from '$/components/custom/Badge';
+import Badge from '~/components/custom/Badge';
 import { useTranslation } from 'react-i18next';
 import { FaShieldHalved } from 'react-icons/fa6';
 

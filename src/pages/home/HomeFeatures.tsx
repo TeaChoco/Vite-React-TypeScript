@@ -1,7 +1,7 @@
 // -Path: 'Vite-React-TypeScript/src/pages/home/HomeFeatures.tsx'
 import { motion } from 'framer-motion';
-import Card from '$/components/custom/Card';
-import Badge from '$/components/custom/Badge';
+import Card from '~/components/custom/Card';
+import Badge from '~/components/custom/Badge';
 import { useTranslation } from 'react-i18next';
 import { FaBolt, FaGlobe, FaRoute, FaPalette, FaCubesStacked, FaRocket } from 'react-icons/fa6';
 

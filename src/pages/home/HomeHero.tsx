@@ -2,10 +2,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import viteLogo from '$/assets/vite.svg';
-import reactLogo from '$/assets/react.svg';
-import Badge from '$/components/custom/Badge';
-import Button from '$/components/custom/Button';
+import viteLogo from '~/assets/vite.svg';
+import reactLogo from '~/assets/react.svg';
+import Badge from '~/components/custom/Badge';
+import Button from '~/components/custom/Button';
 import { SiTypescript } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
 

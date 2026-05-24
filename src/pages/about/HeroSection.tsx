@@ -1,5 +1,5 @@
 // -Path: 'Vite-React-TypeScript/src/pages/about/HeroSection.tsx'
-import Badge from '$/components/custom/Badge';
+import Badge from '~/components/custom/Badge';
 import { useTranslation } from 'react-i18next';
 
 export default function HeroSection() {

@@ -1,5 +1,5 @@
 // -Path: 'Vite-React-TypeScript/src/pages/about/ArchitectureCard.tsx'
-import Card from '$/components/custom/Card';
+import Card from '~/components/custom/Card';
 import { useTranslation } from 'react-i18next';
 
 export default function ArchitectureCard() {

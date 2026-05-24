@@ -4,8 +4,8 @@ import type { Message } from '../../type';
 import { useTranslation } from 'react-i18next';
 import { FaCode, FaCopy, FaCircleCheck, FaCircleXmark } from 'react-icons/fa6';
 import { JsonViewer } from '@textea/json-viewer';
-import { useAuthStore } from '$/stores/authStore';
-import { useThemeStore } from '$/stores/themeStore';
+import { useAuthStore } from '~/stores/authStore';
+import { useThemeStore } from '~/stores/themeStore';
 
 interface AuthDataPanelProps {
     message: Message | null;

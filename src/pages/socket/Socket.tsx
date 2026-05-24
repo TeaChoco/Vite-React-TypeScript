@@ -3,11 +3,11 @@ import SocketHero from './SocketHero';
 import { motion } from 'framer-motion';
 import SocketInfo from './SocketInfo';
 import PlayerCount from './PlayerCount';
-import Button from '$/components/custom/Button';
+import Button from '~/components/custom/Button';
 import { FaBolt, FaPlug } from 'react-icons/fa6';
 import { useTranslation } from 'react-i18next';
 import ConnectionStatus from './ConnectionStatus';
-import { useSocketStore } from '$/stores/socketStore';
+import { useSocketStore } from '~/stores/socketStore';
 
 export default function Socket() {
     const { t } = useTranslation();

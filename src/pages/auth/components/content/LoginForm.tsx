@@ -11,8 +11,8 @@ import {
 import { motion } from 'framer-motion';
 import type { Message } from '../../type';
 import { useTranslation } from 'react-i18next';
-import Button from '$/components/custom/Button';
-import type { LoginPayload } from '$/services/auth';
+import Button from '~/components/custom/Button';
+import type { LoginPayload } from '~/services/auth';
 
 interface LoginFormProps {
     form: LoginPayload;

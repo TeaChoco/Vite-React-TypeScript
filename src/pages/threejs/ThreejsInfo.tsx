@@ -1,6 +1,6 @@
 // -Path: 'Vite-React-TypeScript/src/pages/threejs/ThreejsInfo.tsx'
 import { motion } from 'framer-motion';
-import Card from '$/components/custom/Card';
+import Card from '~/components/custom/Card';
 import { useTranslation } from 'react-i18next';
 import { SiWebgl, SiReact, SiThreedotjs } from 'react-icons/si';
 
