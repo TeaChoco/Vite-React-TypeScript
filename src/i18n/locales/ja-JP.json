@@ -1,0 +1,161 @@
+{
+    "nav": {
+        "home": "ホーム",
+        "auth": "認証",
+        "about": "概要",
+        "socket": "Socket",
+        "threejs": "Three.js"
+    },
+    "home": {
+        "title": "Vite React TypeScript",
+        "subtitle": "モダンスターターテンプレート",
+        "description": "TypeScript、React、Vite、Tailwind CSS、i18n、Socket.io、Zustand を搭載したプロダクション対応スターター — すべて事前設定済みです。",
+        "features": "機能",
+        "get_started": "始める",
+        "view_source": "ソースを表示"
+    },
+    "features": {
+        "performance": {
+            "title": "高性能",
+            "description": "Vite による超高速 HMR と最適化されたビルドプロセスで最高の開発体験を提供します。"
+        },
+        "routing": {
+            "title": "クライアントサイドルーティング",
+            "description": "完全な型安全性とシームレスなページ間ナビゲーションを備えた React Router 7。"
+        },
+        "i18n": {
+            "title": "国際化",
+            "description": "i18next とブラウザベースの言語検出による多言語サポート。"
+        },
+        "theme": {
+            "title": "テーマシステム",
+            "description": "Zustand 永続化と Tailwind CSS 4 統合によるダーク/ライトテーマ。"
+        },
+        "socket": {
+            "title": "Socket.io",
+            "description": "自動再接続対応のリアルタイム双方向イベントベース通信。"
+        },
+        "state": {
+            "title": "状態管理",
+            "description": "テーマ、認証、Socket 状態管理のための Zustand ストアと persist ミドルウェア。"
+        }
+    },
+    "about": {
+        "title": "このプロジェクトについて",
+        "description": "フル機能の Vite + React アプリケーションの構築方法を示すデモテンプレートです。",
+        "tech_stack": "技術スタック",
+        "architecture": "アーキテクチャ",
+        "architecture_desc": "このアプリケーションは Vite の高速開発サーバー上に構築されています。モジュラーコンポーネントアーキテクチャと集中管理された状態管理、リアルタイム機能を備え、スムーズでインタラクティブなユーザー体験を提供します。",
+        "back_home": "ホームに戻る"
+    },
+    "socket": {
+        "badge": "リアルタイム",
+        "title": "Socket.io 接続デモ",
+        "description": "リアルタイム接続状態とプレイヤー数の同期。",
+        "status": "接続状態",
+        "connected": "接続済み",
+        "disconnected": "未接続",
+        "players": "オンラインプレイヤー",
+        "connect": "接続",
+        "disconnect": "切断",
+        "socket_id": "Socket ID",
+        "no_id": "未接続",
+        "features_title": "機能",
+        "feature_realtime_title": "リアルタイム通信",
+        "feature_realtime_desc": "自動再接続対応のクライアントとサーバー間の双方向イベントベース通信。",
+        "feature_websocket_title": "WebSocket プロトコル",
+        "feature_websocket_desc": "最小限のレイテンシで単一の TCP 接続を介した効率的な全二重通信。",
+        "feature_scalable_title": "ルームと名前空間",
+        "feature_scalable_desc": "チャンネルベースのブロードキャスト、ルーム、名前空間、アダプターによる水平スケーリングを内蔵。"
+    },
+    "auth": {
+        "badge": "認証テスト",
+        "title": "認証",
+        "description": "サーバーの認証フローをテスト — メール/パスワードまたは Google OAuth でログイン、認証状態を確認、サインアウト。",
+        "login_title": "サインイン",
+        "email": "メールアドレス",
+        "email_placeholder": "メールアドレスを入力",
+        "password": "パスワード",
+        "password_placeholder": "パスワードを入力",
+        "login_button": "サインイン",
+        "or": "または",
+        "google_login": "Google で続ける",
+        "status_title": "認証状態",
+        "current_status": "現在の状態",
+        "checking": "確認中...",
+        "authenticated": "認証済み",
+        "not_authenticated": "未認証",
+        "unknown_user": "不明なユーザー",
+        "no_email": "メールなし",
+        "user_id": "ユーザーID",
+        "joined": "登録日",
+        "check_auth": "認証状態を確認",
+        "logout_button": "サインアウト",
+        "back_home": "ホームに戻る",
+        "login_success": "ログイン成功",
+        "login_failed": "ログイン失敗。資格情報を確認してください。",
+        "logout_success": "サインアウトしました",
+        "logout_failed": "サインアウト失敗",
+        "register_title": "アカウント作成",
+        "name": "名前",
+        "name_placeholder": "名前を入力",
+        "register_button": "サインアップ",
+        "register_success": "登録成功",
+        "register_failed": "登録失敗",
+        "data_title": "ユーザーデータ",
+        "role": "ロール",
+        "last_login": "最終ログイン",
+        "copy_id": "IDをコピー",
+        "copied": "コピーしました！",
+        "edit_name": "名前を編集",
+        "save": "保存",
+        "cancel": "キャンセル",
+        "name_updated": "名前を更新しました",
+        "name_update_failed": "名前の更新に失敗しました",
+        "change_password_title": "パスワード変更",
+        "current_password": "現在のパスワード",
+        "new_password": "新しいパスワード",
+        "change_password_button": "パスワードを更新",
+        "password_changed": "パスワードを変更しました",
+        "password_change_failed": "パスワード変更に失敗しました",
+        "delete_account": "アカウント削除",
+        "delete_account_confirm": "本当によろしいですか？この操作は取り消せません。",
+        "delete_account_button": "アカウントを削除",
+        "account_deleted": "アカウントを削除しました",
+        "google_linked": "Google アカウント",
+        "invalid_token": "認証トークンが無効または期限切れです"
+    },
+    "threejs": {
+        "badge": "3D グラフィックス",
+        "title": "Three.js インタラクティブシーン",
+        "description": "Three.js と React-three-fiber によるインタラクティブな 3D グラフィックス — 幾何学形状とリアルタイムレンダリングを探索。",
+        "features_title": "機能",
+        "feature_renderer_title": "WebGL レンダラー",
+        "feature_renderer_desc": "最新ブラウザに対応した高性能グラフィックスのための WebGL を使用したハードウェアアクセラレーション 3D レンダリング。",
+        "feature_interaction_title": "インタラクティブコントロール",
+        "feature_interaction_desc": "Orbit コントロールにより、直感的なマウスとタッチ操作で 3D シーンの回転、パン、ズームが可能。",
+        "feature_shapes_title": "複数のジオメトリ",
+        "feature_shapes_desc": "さまざまなマテリアル、色、リアルタイムアニメーションを持つ多様な 3D 形状を統一されたシーンでレンダリング。",
+        "loading": "3D シーンを読み込み中..."
+    },
+    "theme": {
+        "dark": "ダーク",
+        "light": "ライト"
+    },
+    "language": {
+        "en": "English",
+        "th": "ไทย",
+        "ja": "日本語",
+        "zh": "中文"
+    },
+    "notfound": {
+        "title": "ページが見つかりません",
+        "description": "お探しのページは存在しないか、移動された可能性があります。",
+        "back_home": "ホームに戻る",
+        "error_code": "404"
+    },
+    "footer": {
+        "built_with": "構築技術",
+        "by": "作者"
+    }
+}

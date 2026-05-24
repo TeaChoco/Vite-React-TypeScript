@@ -3,10 +3,10 @@ import Select from '../custom/Select';
 import { useTranslation } from 'react-i18next';
 
 const languages = [
-    { code: 'en', label: 'English', flag: '🇺🇸' },
-    { code: 'th', label: 'ไทย', flag: '🇹🇭' },
-    { code: 'ja', label: '日本語', flag: '🇯🇵' },
-    { code: 'zh', label: '中文', flag: '🇨🇳' },
+    { code: 'en-US', label: 'English', flag: '🇺🇸' },
+    { code: 'th-TH', label: 'ไทย', flag: '🇹🇭' },
+    { code: 'ja-JP', label: '日本語', flag: '🇯🇵' },
+    { code: 'zh-CN', label: '中文', flag: '🇨🇳' },
 ] as const;
 
 export default function LanguageSwitcher() {

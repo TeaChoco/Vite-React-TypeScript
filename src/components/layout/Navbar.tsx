@@ -45,6 +45,7 @@ export default function Navbar() {
     const navLinks = [
         { to: '/', label: t('nav.home') },
         { to: '/about', label: t('nav.about') },
+        { to: '/auth', label: t('nav.auth') },
         { to: '/socket', label: t('nav.socket') },
         { to: '/threejs', label: t('nav.threejs') },
     ];
